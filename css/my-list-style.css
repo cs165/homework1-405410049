@@ -1,3 +1,54 @@
-/**
- TODO(you): Add CSS for the list that you create yourself!
-*/
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+body{
+	margin:0px;
+	font-family:Noto Sans TC, sans-serif;
+}
+a:hover{
+	color:#DCDCDC;
+}
+.header
+{
+	background-image:linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url('../images/bg.jpg');
+	background-repeat:no-repeat;
+	height:400px;
+	background-size:cover;
+}
+.nav_item{
+	font-size:22px;
+	color:white;
+	text-decoration:none;
+	margin:20px 20px;
+	padding:8px;
+	border-color:white;
+	border-width:2px;
+	border-style:solid;
+	border-radius:10%;
+}
+.space{
+	height:20px;
+}
+#flex-container-center{
+	display:flex;
+	justify-content:flex-center;
+}
+#flex-container{
+	display:flex;
+}
+.flex-img{
+	width:400px;
+	height:300px;
+	margin-top:50px;
+	margin-left:200px;
+}
+.head_text{
+	font-size:42px;
+	font-weight:bold;
+	color:rgb(51, 51, 51);
+}
+
+.paragraph{
+	margin-left:40px;
+	font-size:18px;
+	width:60%;
+	line-height:32px;
+}
